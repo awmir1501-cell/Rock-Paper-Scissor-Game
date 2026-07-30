@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    width: 100vw;
+   
+}
+.titlebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 133, 255);
+    height: 8vw;
+    gap: 6vw;
+}
+.titlebar h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.iconbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 20vw;
+    gap: 6vw;
+}
+.iconbar .icons{
+    background-size: cover;
+    height: 16vw;
+    width: 16vw;
+}
+.iconbar #rock{
+    background-image: url(rock.png);
+    
+}
+.labelbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 41, 255);
+    height: 20vw;
+
+}
+.labelbar h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconbar #scissor{
+    background-image: url(scissors.png);
+    
+}
+.iconbar #paper{
+    background-image: url(paper.png);
+ 
+}
+.iconbar .icons:hover{
+    transform: scale(1.1);
+}
+@media (max-width:1000px){
+    h1{
+        font-size: 3vw;
+    }
+    
+}
